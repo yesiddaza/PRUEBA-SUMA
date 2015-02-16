@@ -36,7 +36,7 @@ namespace suma_de_romanos
         private void addButton_Click(object sender, EventArgs e)
         {
             if ((isNumber(arabicNumber2.Text)) && (isNumber(arabicNumber2.Text)))
-            {                
+            {
                 arabicValue1 = Convert.ToInt16(arabicNumber1.Text);
                 arabicValue2 = Convert.ToInt16(arabicNumber2.Text);
                 arabicSum = arabicValue1 + arabicValue2;
@@ -47,20 +47,22 @@ namespace suma_de_romanos
                     arabicAnswer.Text = Convert.ToString(arabicSum);
                 }
                 else
-                {
-                    MessageBox.Show("La respuesta debe estar entre 1 y 3999", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    resetElements();
-                }                    
+                    showMessageAndRestart("La respuesta debe estar entre 1 y 3999");
             }
             else
-            {
-                MessageBox.Show("Solo se pueden ingresar números", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                resetElements();
-            }                
+                showMessageAndRestart("Solo se pueden ingresar números");
+        }
+
+        public void showMessageAndRestart(String message)
+        {
+            MessageBox.Show(message, "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            resetElements();
         }
         
         public void resetElements()
         {
+            arabicNumber1.Text = "";
+            arabicNumber2.Text = "";
             romanAnswer.Text = "(Respuesta en romanos)";
             arabicAnswer.Text = "(Respuesta en arábigos)";      
         }
