@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\bin\Debug\suma de romanos.exe.config
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\bin\Debug\suma de romanos.exe
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\bin\Debug\suma de romanos.pdb
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma_de_romanos.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma_de_romanos.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.exe
+c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.pdb
