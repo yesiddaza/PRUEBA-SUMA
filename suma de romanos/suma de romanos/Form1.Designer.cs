@@ -39,7 +39,7 @@
             // 
             this.arabicNumber1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.arabicNumber1.Location = new System.Drawing.Point(15, 55);
-            this.arabicNumber1.MaxLength = 6;
+            this.arabicNumber1.MaxLength = 5;
             this.arabicNumber1.Name = "arabicNumber1";
             this.arabicNumber1.Size = new System.Drawing.Size(272, 31);
             this.arabicNumber1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.arabicNumber2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.arabicNumber2.Location = new System.Drawing.Point(313, 55);
-            this.arabicNumber2.MaxLength = 6;
+            this.arabicNumber2.MaxLength = 5;
             this.arabicNumber2.Name = "arabicNumber2";
             this.arabicNumber2.Size = new System.Drawing.Size(272, 31);
             this.arabicNumber2.TabIndex = 1;

@@ -20,24 +20,11 @@ namespace suma_de_romanos
             InitializeComponent();
         }
 
-        private bool isNumber(String inputText)
+        private bool isInteger(string inputText)
         {
             try
             {
-                decimal newDecimal = Convert.ToDecimal(inputText);
-                return true;
-            }
-            catch 
-            {
-                return false;
-            }
-        }
-
-        private bool isInteger(int inputValue, string inputText)
-        {
-            try
-            {
-                inputValue = Convert.ToInt16(inputText);
+                int inputValue = Convert.ToInt32(inputText);
                 return true;
             }
             catch
@@ -48,26 +35,21 @@ namespace suma_de_romanos
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            if ((isNumber(arabicNumber2.Text)) && (isNumber(arabicNumber2.Text)))
-            {
-                if (!(isInteger(arabicValue1, arabicNumber1.Text)) || !(isInteger(arabicValue2, arabicNumber2.Text)))
-                    showMessageAndRestart("No ingrese números con decimales");
-                else {
-                    arabicValue1 = Convert.ToInt16(arabicNumber1.Text);
-                    arabicValue2 = Convert.ToInt16(arabicNumber2.Text);
-                    arabicSum = arabicValue1 + arabicValue2;
-                    if (arabicSum > 0 && arabicSum < 4000)
-                    {
-                        romanAnswerValue = convertToRomanNumber(arabicSum);
-                        romanAnswer.Text = romanAnswerValue;
-                        arabicAnswer.Text = Convert.ToString(arabicSum);
-                    }
-                    else
-                        showMessageAndRestart("La respuesta debe estar entre 1 y 3999");                
+            if ((isInteger(arabicNumber1.Text)) && (isInteger(arabicNumber2.Text))) {
+                arabicValue1 = Convert.ToInt32(arabicNumber1.Text);
+                arabicValue2 = Convert.ToInt32(arabicNumber2.Text);
+                arabicSum = arabicValue1 + arabicValue2;
+                if (arabicSum > 0 && arabicSum < 4000)
+                {
+                    romanAnswerValue = convertToRomanNumber(arabicSum);
+                    romanAnswer.Text = romanAnswerValue;
+                    arabicAnswer.Text = Convert.ToString(arabicSum);
                 }
+                else
+                    showMessageAndRestart("La respuesta debe estar entre 1 y 3999");            
             }
             else
-                showMessageAndRestart("Solo se pueden ingresar números");
+                showMessageAndRestart("Por favor! Ingrese números enteros");
         }
 
         public void showMessageAndRestart(String message)
