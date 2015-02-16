@@ -72,9 +72,8 @@
             this.romanAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.romanAnswer.Location = new System.Drawing.Point(150, 211);
             this.romanAnswer.Name = "romanAnswer";
-            this.romanAnswer.Size = new System.Drawing.Size(248, 25);
+            this.romanAnswer.Size = new System.Drawing.Size(0, 25);
             this.romanAnswer.TabIndex = 3;
-            this.romanAnswer.Text = "(Respuesta en romanos)";
             this.romanAnswer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // arabicAnswer
@@ -83,9 +82,8 @@
             this.arabicAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.arabicAnswer.Location = new System.Drawing.Point(150, 251);
             this.arabicAnswer.Name = "arabicAnswer";
-            this.arabicAnswer.Size = new System.Drawing.Size(248, 25);
+            this.arabicAnswer.Size = new System.Drawing.Size(0, 25);
             this.arabicAnswer.TabIndex = 4;
-            this.arabicAnswer.Text = "(Respuesta en arábigos)";
             this.arabicAnswer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.arabicAnswer.Click += new System.EventHandler(this.arabicAnswer_Click);
             // 

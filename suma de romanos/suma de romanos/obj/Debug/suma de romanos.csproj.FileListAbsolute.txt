@@ -7,3 +7,12 @@ c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de roma
 c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.csproj.GenerateResource.Cache
 c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.exe
 c:\users\user\documents\visual studio 2013\Projects\suma de romanos\suma de romanos\obj\Debug\suma de romanos.pdb
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\bin\Debug\suma de romanos.exe.config
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma de romanos.exe
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma de romanos.pdb
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\bin\Debug\suma de romanos.exe
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\bin\Debug\suma de romanos.pdb
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma de romanos.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma_de_romanos.Form1.resources
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma_de_romanos.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\PRUEBA-SUMA\suma de romanos\suma de romanos\obj\Debug\suma de romanos.csproj.GenerateResource.Cache
